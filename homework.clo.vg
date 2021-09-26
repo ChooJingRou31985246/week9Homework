@@ -6,7 +6,7 @@
     "projection": {"type": "equirectangular"},
 
     "data": {
-        "url": "ne_110m_admin_0_countries.topojson",
+        "url": "https://raw.githubusercontent.com/PokemonChoo/week9Homework/main/ne_110m_admin_0_countries.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
     },
     "transform": [
@@ -14,7 +14,7 @@
             "lookup": "properties.NAME",
             "from": {
                 "data": {
-                    "url": "annual-co2-emissions-per-country.csv"
+                    "url": "https://raw.githubusercontent.com/PokemonChoo/week9Homework/main/annual-co2-emissions-per-country.csv"
                 },
             "key": "Entity",
             "fields": ["Year","Annual CO2 emissions"]
